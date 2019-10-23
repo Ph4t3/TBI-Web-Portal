@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Libre|Coiny&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Averia+Libre&display=swap');
+body {
+	background: white;
+	min-height: 100vh;
+	margin: 0px;
+}
+.navbar {
+	position: fixed;
+ 	overflow: hidden;
+	background:linear-gradient(45deg,#0052D4,#4364F7);
+	box-shadow: 0 0 4px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	z-index: 2;
+}
+.nav--head {
+	float: left;
+	width: 440px;
+	height: 80px;
+	padding: 25px 0;
+	box-sizing: border-box;
+	text-align: center;
+	margin: auto;
+	font-family: 'Averia Libre', cursive;
+	font-size: 26px;
+}
+.nav--img {
+	padding-left: 5px;
+	float: left;
+}
+.nav_menu {
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 12px;
+	padding-left: 5px;
+	font-family: 'Averia Libre', cursive;
+}
+.nav_menu a {
+	text-decoration: none;
+	color: white;
+}
+.nav_menu a:hover {
+	/*background: #ccc;*/
+	text-decoration: underline;
+	color: black;
+}
+.nav_btn {
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  border: 2px solid black;
+  margin: 20px 20px 20px;
+  width: 3em;
+  height: 3em;
+  border-radius: 12px;
+}
+.nav_drop_content {
+  display: none;
+  position: absolute;
+  right: 0;
+  height: 300px;
+  background-color: #282828;
+  width: 20%;
+  box-shadow: -5px 5px 5px -2px ;
+  border-radius: 0 0 10px 10px;
+  z-index: 2;
+}
+.nav_drop_content a {
+  /*float: right;*/
+  /*width: 15%;*/
+  /*height: 75%;*/
+  text-align: center;
+  font-family: 'Averia Libre', cursive;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /*padding-left: 5px;*/
+}
+.nav_drop_content a:hover {
+  background-color: #eee;
+  color: black;
+}
+.nav_dropdown:hover .nav_btn {
+	background-color: black;
+}
+.nav_dropdown:hover .nav_drop_content {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main {
+	display: inline-block;
+	float: left;
+	width: 100%;	
+}
+.main * {
+	float: left;
+	min-width: 600px;
+	max-height: 600px;
+	margin: auto;
+	padding: 100px 0px 40px 40px;
+}
