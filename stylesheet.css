@@ -16,16 +16,21 @@ body {
 	width: 100%;
 	z-index: 2;
 }
+.nav_head {
+	display: flex;
+	justify-content: space-between;
+	width: 630px;
+}
 .nav--head {
 	float: left;
-	width: 440px;
+	width: 500px;
 	height: 80px;
-	padding: 25px 0;
+	padding: 16px 0;
 	box-sizing: border-box;
 	text-align: center;
 	margin: auto;
 	font-family: 'Averia Libre', cursive;
-	font-size: 26px;
+	font-size: 40px;
 }
 .nav--img {
 	padding-left: 5px;
@@ -102,14 +107,5 @@ body {
   justify-content: space-between;
 }
 .main {
-	display: inline-block;
-	float: left;
-	width: 100%;	
-}
-.main * {
-	float: left;
-	min-width: 600px;
-	max-height: 600px;
-	margin: auto;
-	padding: 100px 0px 40px 40px;
+	padding-top: 10vh;
 }
