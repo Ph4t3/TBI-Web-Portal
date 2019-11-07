@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Averia+Libre|Coiny&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Averia+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Oleo+Script|Spicy+Rice&display=swap');
 body {
 	background: white;
 	min-height: 100vh;
@@ -107,5 +108,21 @@ body {
   justify-content: space-between;
 }
 .main {
-	padding-top: 10vh;
+	padding-top: 15vh;
+	box-sizing: border-box;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	width : 70%;
+	margin: auto;
+	align-items: center;
+	text-align: center;
+}
+.picture1 {
+	padding-bottom: 3vh;
+}
+.para1 {
+	font-size: 25px;
+	font-family: 'Oleo Script', cursive;
 }
