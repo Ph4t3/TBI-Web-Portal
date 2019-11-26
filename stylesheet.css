@@ -85,7 +85,17 @@ body {
   border-radius: 0 0 10px 10px;
   z-index: 2;
 }
-.nav_drop_content a {
+.nav_drop_content2 {
+  display: none;
+  position: absolute;
+  float: left;
+  background-color: #282828;
+  width: 20%;
+  box-shadow: -5px 5px 5px -2px ;
+  border-radius: 0 0 10px 10px;
+  z-index: 2;
+}
+.nav_drop_content a,.nav_drop_content2 a {
   /*float: right;*/
   /*width: 15%;*/
   /*height: 75%;*/
@@ -106,6 +116,12 @@ body {
 	background-color: black;
 }
 .nav_dropdown:hover .nav_drop_content {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav_dropdown:hover .nav_drop_content2 {
   display: flex;
   position: fixed;
   flex-direction: column;
@@ -145,4 +161,5 @@ body {
 	font-size: 25px;
 	padding: 1vh;
 	font-family: 'Oleo Script', cursive;
+	font-weight: lighter;
 }
